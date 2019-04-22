@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sh -c \'sudo -s apt-get update\''
+        sh 'sh -c \'ls -al\''
       }
     }
   }
